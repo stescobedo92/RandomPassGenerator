@@ -1,6 +1,10 @@
 #include "Generator.h"
 
-std::string Generator::genPassword(const size_t length) {
+Generator::Generator() {
+
+}
+
+std::string Generator::genPassword(const std::size_t length) {
     const std::string characters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&&*()_+";
     std::string password;
 
